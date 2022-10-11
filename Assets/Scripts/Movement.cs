@@ -18,6 +18,7 @@ public class Movement : MonoBehaviour
     public LayerMask vacioLayer;
 
     public bool ableToMakeADoubleJump = true;
+    public bool isGrounded;
 
     // Start is called before the first frame update
     void Start()
